@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  yourgroup4-php:
+    image: php:8.2.12-apache
+    container_name: 24RP15077-php
+    volumes:
+      - "C:/xampp/htdocs/24RP15077_STUDENT_MIS/src:/var/www/html"
+    ports:
+      - "8082:80"
